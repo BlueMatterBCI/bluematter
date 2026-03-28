@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Zap, Brain, Wifi } from "lucide-react";
 
 //const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663180721525/c36gcWDG2APCBbHtCdjDSS/hero-bg-kwprqrsPwkewQKVBZqcCnF.webp";
-import HERO_BG from "./assets/Untitled-3.png"; //Bruh
+import HERO_BG from "./assets/HeroBG.png"; //Bruh
 
 const stats = [
   { value: "$2.75B", label: "Global BCI Market", icon: Zap },
