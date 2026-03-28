@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xs font-medium tracking-widest uppercase text-electric"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              Pioneering Practical Consumer BCIs
+              Pioneering Practical Consumer BCI
             </span>
           </motion.div>
 
