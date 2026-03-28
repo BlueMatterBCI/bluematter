@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xs font-medium tracking-widest uppercase text-electric"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              Pioneering Consumer BCI
+              Pioneering Practical Consumer BCIs
             </span>
           </motion.div>
 
@@ -73,9 +73,9 @@ export default function HeroSection() {
             className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl mb-10"
             style={{ fontFamily: "var(--font-body)" }}
           >
-            We are designing a discrete, affordable, non-invasive brain-computer
-            interface that wirelessly extends human control over IoT devices —
-            hidden inside an everyday baseball cap.
+            Mind control can be unlocked without the need for an invasive brain-chip.
+            The BlueMatter Project is creating a device that can do just this, under
+            the guise of an everday baseball cap.
           </motion.p>
 
           {/* CTAs */}
