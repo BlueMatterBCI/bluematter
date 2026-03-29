@@ -26,7 +26,7 @@ function FadeIn({ children, delay = 0, className = "" }: { children: React.React
 const team = [
   {
     name: "Erik O'Bryant",
-    role: "Project & Design Lead",
+    role: "Project and SoftWare Development Lead",
     dept: "Biomedical Engineering",
     initials: "EO",
     focus: "Overall project direction, system design, and signal processing architecture",
@@ -43,21 +43,21 @@ const team = [
     role: "Mechanical Systems & Fabrication Lead",
     dept: "Biomedical Engineering",
     initials: "LS",
-    focus: "Physical device design, electrode fabrication, and head-fitting mesh engineering",
+    focus: "Software development, data collection and mechanical systems integration",
   },
   {
     name: "Taylor Foster",
-    role: "Human Factors Lead",
+    role: "Human Systems and Algorithms Research Lead",
     dept: "Human Systems Engineering",
     initials: "TF",
-    focus: "User experience research, ergonomic design, and wearability optimization",
+    focus: "Machine learning research, market analysis, and technical documentation",
   },
   {
     name: "Saee Pangarkar",
-    role: "Technical Research & Implementation Lead",
+    role: "Technical Research and Implementation Lead",
     dept: "Biomedical Engineering",
     initials: "SP",
-    focus: "AI model development, neural network architecture, and signal classification",
+    focus: "AI model development, electrode research, and signal preprocessing",
   },
 ];
 
