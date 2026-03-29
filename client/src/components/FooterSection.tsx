@@ -72,7 +72,7 @@ export default function FooterSection() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://www.linkedin.com/company/the-bluematter-project"
+                  href="https://www.linkedin.com/company/the-bluematter-project/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-sm font-semibold bg-electric text-white rounded-md hover:bg-electric-bright transition-all duration-300 glow-blue-sm hover:glow-blue"
