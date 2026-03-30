@@ -6,7 +6,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import asuLogo from "./assets/asu-logo.png";
-import luminosityLogo from "./assets/luminosity-logo.png";
+import luminosityLogo from "./assets/lum-logo.png";
 import nexusLogo from "./assets/nexus-logo.png";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
