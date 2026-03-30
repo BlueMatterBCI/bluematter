@@ -5,6 +5,9 @@
  */
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import asuLogo from "./assets/asu-logo.png";
+import luminosityLogo from "./assets/luminosity-logo.png";
+import nexusLogo from "./assets/nexus-logo.png";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
@@ -24,9 +27,9 @@ function FadeIn({ children, delay = 0, className = "" }: { children: React.React
 
 // Updated to include 'logo' paths instead of 'abbr'
 const affiliations = [
-  { name: "Arizona State University", id: "ASU", logo: "./assets/asu-logo.png" },
-  { name: "The Luminosity Lab", id: "LUMINOSITY", logo: "./assets/luminosity-logo.png" },
-  { name: "NEXUS Summit", id: "NEXUS", logo: "./assets/nexus-logo.png" },
+  { name: "Arizona State University", id: "ASU", logo: asuLogo },
+  { name: "The Luminosity Lab", id: "LUMINOSITY", logo: luminosityLogo },
+  { name: "NEXUS Summit", id: "NEXUS", logo: nexusLogo },
 ];
 
 export default function LogoStrip() {
