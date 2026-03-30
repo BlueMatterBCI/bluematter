@@ -6,6 +6,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { TrendingUp, Globe, DollarSign, Users } from "lucide-react";
+import VISION_IMG from "./assets/Mascot.png"; //Bruh
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
@@ -102,7 +103,7 @@ const comparison = [
 ];
 
 export default function MarketSection() {
-  const VISION_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663180721525/c36gcWDG2APCBbHtCdjDSS/vision-section-Rj4HrvSzvpAUWsdW5zZY8v.webp";
+  //const VISION_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663180721525/c36gcWDG2APCBbHtCdjDSS/vision-section-Rj4HrvSzvpAUWsdW5zZY8v.webp";
 
   return (
     <section id="market" className="relative py-28 md:py-36 overflow-hidden">
