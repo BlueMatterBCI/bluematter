@@ -23,8 +23,8 @@ function FadeIn({ children, delay = 0, className = "" }: { children: React.React
 }
 
 const affiliations = [
-  { name: "Arizona State University", abbr: "ASU" },
-  { name: "The Luminosity Lab", abbr: "LUMINOSITY" },
+  { name: "Arizona State University", id: "ASU", logo: "./assets/asu-logo.png" },
+  { name: "The Luminosity Lab", id: "LUMINOSITY", logo: "./assets/lum-logo.png" },
   { name: "NEXUS Summit", abbr: "NEXUS" },
 ];
 
