@@ -152,7 +152,6 @@ export default function TechnologySection() {
               </div>
             </div>
           </FadeIn>
-        </div>
 
           <div className="space-y-4">
             {features.slice(0, 3).map((feat, i) => (
