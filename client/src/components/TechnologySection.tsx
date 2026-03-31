@@ -10,7 +10,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Cpu, Bluetooth, BrainCircuit, CircuitBoard, Battery, Smartphone, Glasses, Wifi, Code, Cog, Bot } from "lucide-react";
 
-import TECH_IMG from "./assets/Guy.png";
+import TECH_IMG from "./assets/Guy2.png";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
