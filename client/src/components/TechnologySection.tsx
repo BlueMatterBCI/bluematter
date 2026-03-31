@@ -98,8 +98,8 @@ export default function TechnologySection() {
                 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Technology That{" "}
-                <span className="text-electric text-glow">Disappears</span>
+                Everyday Technology,{" "}
+                <span className="text-electric text-glow">Extraordinary Control</span>
               </h2>
             </div>
           </FadeIn>
@@ -150,15 +150,9 @@ export default function TechnologySection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
               </div>
-              {/* Floating label */}
-              <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3 px-4 py-3 rounded-lg bg-card/90 backdrop-blur-sm border border-border">
-                <div className="w-2 h-2 rounded-full bg-electric animate-pulse" />
-                <span className="text-xs text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>
-                  EVERYDAY TECHNOLOGY // EXTRAORDINARY CONTROL
-                </span>
-              </div>
             </div>
           </FadeIn>
+        </div>
 
           <div className="space-y-4">
             {features.slice(0, 3).map((feat, i) => (
