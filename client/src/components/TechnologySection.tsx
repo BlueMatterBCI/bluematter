@@ -10,7 +10,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Cpu, Bluetooth, BrainCircuit, CircuitBoard, Battery, Smartphone, Glasses, Wifi, Code, Cog, Bot } from "lucide-react";
 
-const TECH_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663180721525/c36gcWDG2APCBbHtCdjDSS/tech-section-6qEMjAeaxEPdk6uisuAVb9.webp";
+import TECH_IMG from "./assets/Guy.png";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
@@ -29,7 +29,7 @@ function FadeIn({ children, delay = 0, className = "" }: { children: React.React
 }
 
 const visionPillars = [
-  { icon: Glasses, label: "Discrete Design", desc: "Hidden inside a baseball cap" },
+  { icon: Glasses, label: "Discreet Design", desc: "Hidden inside a baseball cap" },
   { icon: Wifi, label: "Wireless Connectivity", desc: "Bluetooth-powered, no wires" },
   { icon: Code, label: "Software Refinement", desc: "AI-powered signal processing" },
   { icon: Cog, label: "Circuitry Innovation", desc: "Custom modular PCB design" },
@@ -55,7 +55,7 @@ const features = [
   {
     icon: Cpu,
     title: "High Electrode Count",
-    desc: "10+ electrodes with full head coverage \u2014 far more than most commercial BCIs (4\u20138), making it comparable to clinical EEGs in scope of signal acquisition.",
+    desc: "10+ electrodes with full head coverage far more than most commercial BCIs (4\u20138), making it comparable to clinical EEGs in scope of signal acquisition.",
   },
   {
     icon: Battery,
@@ -107,7 +107,7 @@ export default function TechnologySection() {
 
         <FadeIn delay={0.15}>
           <p className="max-w-2xl text-lg text-muted-foreground leading-relaxed mb-12" style={{ fontFamily: "var(--font-body)" }}>
-            A discrete wireless EEG system integrated into a baseball cap \u2014 combining
+            A discreet wireless EEG system integrated into a baseball cap combining
             clinical-grade signal acquisition with consumer-friendly design. Completely
             wireless, easy to wear, and seamlessly connected to your world.
           </p>
@@ -154,7 +154,7 @@ export default function TechnologySection() {
               <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3 px-4 py-3 rounded-lg bg-card/90 backdrop-blur-sm border border-border">
                 <div className="w-2 h-2 rounded-full bg-electric animate-pulse" />
                 <span className="text-xs text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>
-                  PROTOTYPE_V2 // DISCRETE_EEG_SYSTEM
+                  EVERYDAY TECHNOLOGY // EXTRAORDINARY CONTROL
                 </span>
               </div>
             </div>
