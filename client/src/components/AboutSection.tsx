@@ -237,7 +237,7 @@ export default function AboutSection() {
             <div className="p-6 rounded-lg border border-electric/30 bg-electric/5 text-center">
               <Shield size={20} className="text-electric mx-auto mb-3" />
               <div className="text-2xl font-bold text-electric mb-1" style={{ fontFamily: "var(--font-display)" }}>
-                ~$900
+                ~$400
               </div>
               <div className="text-xs text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>
                 Target market price
