@@ -94,7 +94,7 @@ const marketStats = [
 ];
 
 const comparison = [
-  { category: "Price", clinical: "$10,000–$30,000", commercial: "~$3,000", bluematter: "~$900" },
+  { category: "Price", clinical: "$10,000–$30,000", commercial: "~$3,000", bluematter: "~$400" },
   { category: "Wireless", clinical: "No (wired)", commercial: "Yes", bluematter: "Yes (Bluetooth)" },
   { category: "Invasive", clinical: "Often yes", commercial: "No", bluematter: "No" },
   { category: "Signal Fidelity", clinical: "Very high", commercial: "Low–Medium", bluematter: "High (AI-enhanced)" },
