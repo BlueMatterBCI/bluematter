@@ -201,7 +201,7 @@ export default function AboutSection() {
                   "Compact design hidden inside a baseball cap",
                   "High electrode-count with full head coverage",
                   "Wireless Bluetooth connectivity to IoT devices",
-                  "Affordable consumer pricing (~$900 vs $10k+)",
+                  "Affordable consumer pricing (<$1000 vs $10k+)",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground" style={{ fontFamily: "var(--font-body)" }}>
                     <span className="w-1 h-1 rounded-full bg-electric mt-2 shrink-0" />
