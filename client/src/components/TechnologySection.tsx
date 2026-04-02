@@ -55,7 +55,7 @@ const features = [
   {
     icon: Cpu,
     title: "High Electrode Count",
-    desc: "10+ electrodes with full head coverage far more than most commercial BCIs (4\u20138), making it comparable to clinical EEGs in scope of signal acquisition.",
+    desc: "20+ electrodes with full head coverage far more than most commercial BCIs (4\u20138), making it comparable to clinical EEGs in scope of signal acquisition.",
   },
   {
     icon: Battery,
