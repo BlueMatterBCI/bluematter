@@ -174,13 +174,13 @@ export default function AboutSection() {
               <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "var(--font-body)" }}>
                 We envision a world where consumer-grade BCIs are affordable and unobtrusive
                 while maintaining the accuracy of research-grade devices. Our EEG device is
-                designed to be discrete, completely wireless, and user-friendly \u2014 precise enough
+                designed to be discreet, completely wireless, and user-friendly and precise enough
                 for both medical and casual use-cases.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "var(--font-body)" }}>
                 From precise prosthetic control to monitoring mental health conditions and
                 controlling personal smart devices, we believe BCIs can finally become more than
-                lab equipment and enter daily life \u2014 bridging the gap between human intention
+                lab equipment and enter daily life, bridging the gap between human intention
                 and digital action.
               </p>
             </div>
