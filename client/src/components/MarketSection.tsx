@@ -86,7 +86,7 @@ const marketStats = [
     icon: Users,
     value: 15,
     prefix: "",
-    suffix: "%+",
+    suffix: "%",
     decimals: 0,
     label: "Annual Growth",
     sublabel: "CAGR projected",
@@ -99,7 +99,7 @@ const comparison = [
   { category: "Invasive", clinical: "Often yes", commercial: "No", bluematter: "No" },
   { category: "Signal Fidelity", clinical: "Very high", commercial: "Low–Medium", bluematter: "High (AI-enhanced)" },
   { category: "Form Factor", clinical: "Bulky headset", commercial: "Headband", bluematter: "Baseball cap" },
-  { category: "Electrode Count", clinical: "64–256", commercial: "4–8", bluematter: "10+ (expandable)" },
+  { category: "Electrode Count", clinical: "64–256", commercial: "4–8", bluematter: "20+ (expandable)" },
 ];
 
 export default function MarketSection() {
