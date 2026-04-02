@@ -29,7 +29,7 @@ const pipelineSteps = [
   {
     step: "01",
     title: "Signal Acquisition",
-    desc: "Raw EEG signals captured from 10+ electrodes across the scalp, along with accelerometer data for motion tracking.",
+    desc: "Raw EEG signals captured from 20+ electrodes across the scalp, along with accelerometer data for motion tracking.",
   },
   {
     step: "02",
