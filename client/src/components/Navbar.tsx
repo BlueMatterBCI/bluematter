@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       <nav className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <a
+        
           href="#"
           onClick={(e) => {
             e.preventDefault();
@@ -54,20 +54,11 @@ export default function Navbar() {
           }}
           className="flex items-center gap-3 group"
         >
-          <div className="relative w-8 h-8 md:w-9 md:h-9">
-            <div className="absolute inset-0 rounded-full bg-electric/20 group-hover:bg-electric/30 transition-colors" />
-            <svg viewBox="0 0 36 36" className="w-full h-full" fill="none">
-              <circle cx="18" cy="18" r="16" stroke="oklch(0.65 0.2 255)" strokeWidth="1.5" opacity="0.6" />
-              <path
-                d="M12 18c0-4 2.5-8 6-8s6 4 6 8-2.5 8-6 8-6-4-6-8z"
-                stroke="oklch(0.65 0.2 255)"
-                strokeWidth="1.5"
-                fill="oklch(0.65 0.2 255 / 0.15)"
-              />
-              <circle cx="18" cy="14" r="2" fill="oklch(0.75 0.2 255)" />
-              <path d="M15 18h6M16 21h4" stroke="oklch(0.65 0.2 255)" strokeWidth="1" opacity="0.5" />
-            </svg>
-          </div>
+          <img
+            src="/logos/Logo.png"
+            alt="BlueMatter logo"
+            className="w-8 h-8 md:w-9 md:h-9 object-contain"
+          />
           <span
             className="text-lg md:text-xl font-semibold tracking-tight text-foreground"
             style={{ fontFamily: "var(--font-display)" }}
