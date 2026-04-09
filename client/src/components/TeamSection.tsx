@@ -6,6 +6,11 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Linkedin, Instagram } from "lucide-react";
+import erikHeadshot from "./assets/erik-headshot.png";
+import tylerHeadshot from "./assets/tyler-headshot.png";
+import luccaHeadshot from "./assets/lucca-headshot.jpg";
+import taylorHeadshot from "./assets/taylor-foster-headshot.png";
+import saeeHeadshot from "./assets/saee-headshot.jpg";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
@@ -28,35 +33,35 @@ const team = [
     name: "Erik O'Bryant",
     role: "Project and SoftWare Development Lead",
     dept: "Biomedical Engineering",
-    initials: "EO",
+    photo: erikHeadshot,
     focus: "Overall project direction, system design, and signal processing architecture",
   },
   {
     name: "Tyler Santos",
     role: "Electrical Systems Lead",
     dept: "Electrical Engineering",
-    initials: "TS",
+    photo: tylerHeadshot,
     focus: "Custom PCB design, amplification circuitry, and power management systems",
   },
   {
     name: "Lucca Saraceno",
     role: "Mechanical Systems & Fabrication Lead",
     dept: "Biomedical Engineering",
-    initials: "LS",
+    photo: luccaHeadshot,
     focus: "Software development, data collection and mechanical systems integration",
   },
   {
     name: "Taylor Foster",
     role: "Human Systems and Algorithms Research Lead",
     dept: "Human Systems Engineering",
-    initials: "TF",
+    photo: taylorHeadshot,
     focus: "Machine learning research, market analysis, and technical documentation",
   },
   {
     name: "Saee Pangarkar",
     role: "Technical Research and Implementation Lead",
     dept: "Biomedical Engineering",
-    initials: "SP",
+    photo: saeeHeadshot,
     focus: "AI model development, electrode research, and signal preprocessing",
   },
 ];
@@ -116,13 +121,12 @@ export default function TeamSection() {
             <FadeIn key={member.name} delay={0.2 + i * 0.08}>
               <div className="group p-6 rounded-lg border border-border bg-card/30 hover:border-electric/30 hover:bg-card/60 transition-all duration-500 h-full flex flex-col">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-lg bg-electric/10 border border-electric/20 flex items-center justify-center group-hover:glow-blue-sm transition-all duration-500 shrink-0">
-                    <span
-                      className="text-sm font-bold text-electric"
-                      style={{ fontFamily: "var(--font-mono)" }}
-                    >
-                      {member.initials}
-                    </span>
+                  <div className="w-12 h-12 rounded-lg bg-electric/10 border border-electric/20 overflow-hidden group-hover:glow-blue-sm transition-all duration-500 shrink-0">
+                    <img
+                      src={member.photo}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <h3
